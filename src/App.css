@@ -1,73 +1,49 @@
-
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 0 1rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #65d7f7aa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  .glass, .glass-dark {
+    padding: 1rem;
+    margin: 0.5rem 0;
   }
-  to {
-    transform: rotate(360deg);
+
+  .credit-card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .strategy-description {
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width: 640px) {
+  .container {
+    padding: 0 0.5rem;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .grid {
+    gap: 0.5rem;
+  }
 
-.read-the-docs {
-  color: #888;
-}
+  table {
+    font-size: 0.875rem;
+  }
 
-/* Strategy description styles */
-.strategy-description {
-  padding: 1rem;
-  border-radius: 0.5rem;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  margin-bottom: 1rem;
-}
+  th, td {
+    padding: 0.5rem;
+  }
 
-.strategy-description h4 {
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
+  .text-3xl {
+    font-size: 1.5rem;
+  }
 
-.strategy-description p {
-  font-size: 0.875rem;
-  color: var(--muted-foreground);
-}
-
-/* Credit card display styles */
-.credit-card {
-  border-radius: 1rem;
-  overflow: hidden;
-  position: relative;
-  transition: transform 0.3s ease;
-}
-
-.credit-card:hover {
-  transform: translateY(-5px);
+  .text-2xl {
+    font-size: 1.25rem;
+  }
 }
