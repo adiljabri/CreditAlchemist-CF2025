@@ -1,0 +1,22 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grey outline for the shield -->
+  <path d="M20 1C18.3 1 9 4.8 3.5 7C3.5 15 4 25.5 20 39C36 25.5 36.5 15 36.5 7C31 4.8 21.7 1 20 1Z" fill="#E5E7EB" />
+  
+  <!-- Shield shape with gradient -->
+  <path d="M20 2C18.5 2 10 5.5 5 7.5C5 15 5.5 25 20 38C34.5 25 35 15 35 7.5C30 5.5 21.5 2 20 2Z" fill="url(#shield-gradient)" />
+  
+  <!-- Professional Dollar sign -->
+  <path d="M20 10C17.2 10 15 11.5 15 14C15 16.5 18 17.5 20 18C22 18.5 24 19 24 21C24 22.5 22.5 24 20 24C17.8 24 16 22.8 15 21.5L13.5 23.5C15 25.2 17.5 26 20 26C23.5 26 26.5 23.5 26.5 21C26.5 17.5 23.5 16.5 21.5 16C19.5 15.5 17.5 15 17.5 14C17.5 12.8 18.5 12 20 12C21.5 12 23 12.8 24 13.8L25.5 11.8C24 10.5 22 10 20 10Z" fill="#2563EB" />
+  
+  <!-- Symmetrical vertical strokes of dollar sign -->
+  <rect x="19" y="7" width="2" height="4" fill="#2563EB" />
+  <rect x="19" y="25" width="2" height="4" fill="#2563EB" />
+  
+  <!-- Gradient definition with lighter blue -->
+  <defs>
+    <linearGradient id="shield-gradient" x1="5" y1="2" x2="35" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BFDBFE" />
+      <stop offset="1" stop-color="#60A5FA" />
+    </linearGradient>
+  </defs>
+</svg>
